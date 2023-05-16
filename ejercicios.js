@@ -1,17 +1,16 @@
 // Metodo reverse() como fn
 
-array = [1, 2, 3, 4, 5, 6, 7, 8]
-newArray = []
+array = [3, 1, 2, 3, 5, 510, 6, 7, 8, 9]
 
-const reverse = (array) => {
-    for (let i = array.length; i > 0; i--) {
-        result = newArray.push(i)
+const reverse = () => {
+    newArray = []
+    for (let i = (array.length - 1); i >= 0; i--) {
+        newArray.push(array[i])
     }
-    return result
+    return newArray
 }
 
-reverse(array)
-console.log(newArray)
+console.log(reverse(array))
 
 // Metodo filter() como fn
 // Queremos filtrar solo la posicion 4 y 6 del array
@@ -24,3 +23,32 @@ const filter = (array) => {
 
 filter(array)
 console.log(filterArray)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
